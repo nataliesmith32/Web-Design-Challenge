@@ -1,0 +1,93 @@
+body {
+  background-image: url("https://mag.ncep.noaa.gov/mag_images/mag-world-background.gif");
+  height: 1000px;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.navbar {
+  max-height: 50px;
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  font-size: 16px; 
+}
+.dropdown-item {
+  color: rgba(52, 105, 165, 0.75);
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(52, 105, 165, 0.75);
+}
+
+.nav-link:hover {
+  background-color:rgba(52, 105, 165, 0.75);
+ }
+
+img {
+  width:100%;
+  height:100%;
+}
+.active, .panel:hover {
+  border-color:rgba(52, 105, 165, 0.75);
+  border-style: solid;
+  
+}
+.vizualization {
+  width:80%;
+  height:80%;
+}
+
+.title {
+  color: rgba(52, 105, 165, 0.75);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+p {
+color: rgba(52, 105, 165, 0.75);
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+}
+
+.box {
+  margin-top: 80px;
+  margin-bottom: 70px;
+  padding: 20px 30px 20px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+
+}
+h3 {
+  text-align: center;
+}
+
+.table {
+  font-size: 15px;
+  border-top-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1920px) {
+  .navbar-expand-lg {
+  background-color: #000000;
+  }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: rgb(255,255,255);
+  }
+  .navbar-brand {
+    padding: 10px;
+  }
+  button{
+    margin-right: 50px;
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
+}
