@@ -51,6 +51,13 @@ h3 {
 .table {
   font-size: 15px;
   border-top-color: rgb(255, 255, 255);
+  
+}
+
+th {
+  position: sticky;
+  top: 0px;
+  background: rgb(255, 255, 255);
 }
 
 .title {
