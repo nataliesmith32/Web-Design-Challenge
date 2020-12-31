@@ -8,9 +8,7 @@ body {
 
 .navbar {
   max-height: 50px;
-}
-.navbar {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   font-size: 16px; 
 }
 .dropdown-item {
